@@ -7,6 +7,7 @@ import 'combine_subtitle.dart';
 import 'description_text.dart';
 import 'download_button.dart';
 import 'headline_text.dart';
+
 class IntroBody extends StatelessWidget {
   const IntroBody({super.key});
   @override
@@ -49,7 +50,11 @@ class IntroBody extends StatelessWidget {
                   height: defaultPadding,
                   color: Colors.transparent,
                 ),
+              SizedBox(
+                height: size.height * 0.1,
+              ),
               const CombineSubtitleText(),
+              // Text("kderfgyhujk"),
               const SizedBox(height: defaultPadding / 2),
               const Responsive(
                 desktop: AnimatedDescriptionText(start: 14, end: 15),
@@ -61,6 +66,9 @@ class IntroBody extends StatelessWidget {
                 height: defaultPadding * 2,
               ),
               const DownloadButton(),
+              const SizedBox(
+                height: 20,
+              ),
             ],
           ),
         ),
