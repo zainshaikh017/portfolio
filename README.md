@@ -89,3 +89,14 @@ flutter run -d chrome --dart-define=webdev.dart-serve.web-secure=false
 flutter build web --web-renderer html --release
 
 flutter run -d chrome --web-renderer html
+
+hosting command for firebase hosting
+
+1) firebase init
+2) if remote signin take some issue on first time firebase initilization  to run this commadn =>  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+3) option the for selet upload web form 
+4) selet and option use an existing project
+5) select the web directory web/build
+6) yes
+7) no
+8) firebase deploy

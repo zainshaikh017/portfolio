@@ -1,1 +1,37 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"zain-portfolio-71282","appId":"1:1077576502266:android:eb41fd411eed640f8a3243","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"zain-portfolio-71282","configurations":{"android":"1:1077576502266:android:eb41fd411eed640f8a3243","ios":"1:1077576502266:ios:9a6fce994c476e928a3243","web":"1:1077576502266:web:8c3fdf7a62309e9d8a3243"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "zain-portfolio-71282",
+          "appId": "1:1077576502266:android:eb41fd411eed640f8a3243",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "zain-portfolio-71282",
+          "configurations": {
+            "android": "1:1077576502266:android:eb41fd411eed640f8a3243",
+            "ios": "1:1077576502266:ios:9a6fce994c476e928a3243",
+            "web": "1:1077576502266:web:8c3fdf7a62309e9d8a3243"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
