@@ -1,7 +1,5 @@
 class PersnolInformation {
   static const String cv_link = "https://drive.google.com/file/d/11s3Bv1LCjpJ4knKt9TD1NbN9LTWWkGuq/view?usp=drivesdk";
-
-
   static const String name = "Zain Shaikh";
   static const String image = "assets/images/profile.jpeg";
   static const String title = "Fluetter Developer";

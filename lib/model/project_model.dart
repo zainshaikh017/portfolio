@@ -9,21 +9,21 @@ class Project {
 List<Project> projectList = [
   Project(
     'Saudi Feshion Hub',
-    'Presenting "Coffee" - a Flutter UI application that invites you to indulge in a delightful coffee adventure. Immerse yourself in the world of rich aroma and flavor as you browse through an exquisite selection of specialty coffees. With a user-friendly interface, exploring different blends and discovering their unique details becomes a delightful experience.',
+    'Saudi Fashion Hub is your premier e-commerce app connecting designers and clients. Powered by a robust Laravel API, it offers seamless features like order tracking, comments, and social interactions. Discover, follow, and engage with top designers while managing and tracking your orders effortlessly. Elevate your fashion experience with Saudi Fashion Hub today!',
     'assets/images/saudi.jpg',
     '',
   ),
   Project(
     'Mishaal AI Assistant ',
-    'Car Control Dashboard is a user-friendly mobile application built using Flutter and powered by GetX for efficient state management. Enjoy a modern and intuitive design that adapts to various screen sizes, Interact with dynamic car controls, including speed, steering, and temperature. Realistic animations enhance the visual appeal, making it feel like you are controlling a real car!',
+    'Mishaal AI Assistant is your go-to app for streamlined email management, effortless trip planning, and instant AI chat support. Powered by OpenAI, Mishaal helps you draft emails, find and book hotels, and get quick answers—all in one place. Simplify your life with Mishaal today!',
     'assets/images/mishal.jpg',
-    'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
+    '',
   ),
-  // Project(
-  //     'Neumorphic Clockify',
-  //     'Neumorphic TimeKit is an open-source project that brings together the elegance of a beautifully designed alarm system, an analog clock with a neumorphic touch, and a feature-rich stopwatch. Whether you\'re looking for a functional alarm tool, a stylish desktop clock, or a precise stopwatch, TimeKit has you covered.',
-  //     'assets/images/alarm.jpg',
-  //     'https://github.com/Hamad-Anwar/Neumorphic-Analog-Clockify'),
+  Project(
+      'Neartik NFC',
+      'Neartik NFC Reader & Writer is your go-to app for effortlessly managing NFC technology. With Neartik, you can easily read and write data to NFC cards, create and update profiles, and streamline your NFC interactions. Whether for personal or professional use, Neartik simplifies NFC management with a user-friendly interface. Transform your NFC experience with Neartik today!',
+      'assets/images/Neartik.jpg',
+      ''),
   // Project(
   //     'CUI Aider',
   //     'CUI AIDER is an extraordinary application that brings together augmented reality (AR), a robust student portal, intuitive class management, and a comprehensive GPA system, providing an all-encompassing solution for students.Using AR technology, CUI AIDER offers an immersive experience, allowing users to explore the complete university campus virtually. Through AR, students can visualize buildings, navigate with interactive directions, and gain a better understanding of their surroundings.',
