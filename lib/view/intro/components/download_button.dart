@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/model/Persnol_information.dart';
-import 'package:flutter_portfolio/view/main/components/drawer/personal_info.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import '../../../res/constants.dart';
 
 class DownloadButton extends StatelessWidget {

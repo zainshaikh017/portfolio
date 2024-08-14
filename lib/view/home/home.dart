@@ -11,9 +11,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MainView(pages: [
       const Introduction(),
-      Container(
-        child: Center(child: Text("Comming Soon")),
-      ),
+      Center(child: Text("Comming Soon")),
       ProjectsView(),
       Certifications(),
       
