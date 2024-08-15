@@ -22,4 +22,33 @@ List<CertificateModel> certificateList = [
     skills: 'Flutter . Dart',
     credential: '',
   ),
+  CertificateModel(
+    name: 'Graphic Desgning',
+    organization: 'ZABTech (IVTE) SZAB',
+    date: 'JAN 2022',
+    skills: 'Flutter . ',
+    credential:
+        'https://drive.google.com/file/d/1WUsv5qhENjgorUrGtxzee1tzOALaPhIW/view?usp=sharing',
+  ),
+  CertificateModel(
+    name: 'Getting started with Flutter Development',
+    organization: 'MIT Software Solution',
+    date: 'JAN 2022',
+    skills: 'Flutter . Dart',
+    credential: '',
+  ),
+  CertificateModel(
+    name: 'Getting started with Flutter Development',
+    organization: 'MIT Software Solution',
+    date: 'JAN 2022',
+    skills: 'Flutter . Dart',
+    credential: '',
+  ),
+  CertificateModel(
+    name: 'Getting started with Flutter Development',
+    organization: 'MIT Software Solution',
+    date: 'JAN 2022',
+    skills: 'Flutter . Dart',
+    credential: '',
+  ),
 ];
